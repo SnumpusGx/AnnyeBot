@@ -55,6 +55,7 @@ const log_hook = new Discord.WebhookClient({ url: '' }) //Coloque a url do webho
     <img src="https://reporoster.com/stars/dark/SnumpusGx/AnnyeBot">
   </a>
 </p>
+
 - Forkers
 <p>
   <a href="https://github.com/SnumpusGx/AnnyeBot/forkers">
