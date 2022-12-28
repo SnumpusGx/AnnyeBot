@@ -51,13 +51,13 @@ const log_hook = new Discord.WebhookClient({ url: '' }) //Coloque a url do webho
  
  - Stargazers
 <p>
-  <a href="https://github.com/SnumpusGx/Annye-Public/stargazers">
-    <img src="https://reporoster.com/stars/dark/SnumpusGx/Annye-Public">
+  <a href="https://github.com/SnumpusGx/AnnyeBot/stargazers">
+    <img src="https://reporoster.com/stars/dark/SnumpusGx/AnnyeBot">
   </a>
 </p>
 - Forkers
 <p>
-  <a href="https://github.com/SnumpusGx/Annye-Public/forkers">
-    <img src="https://reporoster.com/forks/dark/SnumpusGx/Annye-Public">
+  <a href="https://github.com/SnumpusGx/AnnyeBot/forkers">
+    <img src="https://reporoster.com/forks/dark/SnumpusGx/AnnyeBot">
   </a>
 </p>
