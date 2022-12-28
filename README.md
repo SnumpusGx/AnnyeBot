@@ -6,7 +6,7 @@ Isso é uma cópia pública do bot que gerencia o servidor Anime's Night
 Caso você fazer esse procedimento em um computador local, instale o [GIT](https://git-scm.com/downloads) e o [NodeJS](https://nodejs.org/en/download) em sua máquina;
 1. Execute o comando `git clone` para clonar o repositório.
 ```bash
-git clone https://github.com/SnumpusGx/Annye-Public.git && cd Annye-Public
+git clone https://github.com/SnumpusGx/AnnyeBot.git && cd AnnyeBot
 ```
 2. Instale as dependências para que a aplicação funcione corretamente
 ```bash
