@@ -1,4 +1,4 @@
-const { EmbedBuilder } = require('discord.js');
+const { EmbedBuilder, AttachmentBuilder } = require('discord.js');
 const Discord = require('discord.js')
 
 module.exports = {
@@ -24,7 +24,7 @@ module.exports = {
       else return text;
     };
       const commandCode = await interaction.options.getString('code')
-      const code = commandCode
+      const code = commandCode;
 
 	let evaled;
 	try { 
@@ -34,8 +34,15 @@ module.exports = {
 	}
        const type = typeof evaled;
        if(type !== 'string') evaled = require('util').inspect(evaled);
-       evaled = `${evaled}`.length > 0 ? `${evaled}`.slice(0, 1800) : 'void';
-
-      interaction.reply({ content: '```js\n' + evaled + '\n```', ephemeral: true })
+       const attachment = new AttachmentBuilder(Buffer.from(evaled), { name: 'code.js' })
+       
+       if(evaled.length > 1800) {
+	       
+         evaled = `${evaled}`.length > 0 ? `${evaled}`.slice(0, 1800) : 'void';
+        interaction.reply({ content: '```js\n' + evaled + '\n```', files: [attachment], ephemeral: true })
+	    
+       } else {
+         interaction.reply({ content: '```js\n' + evaled + '\n```', ephemeral: true })
+       }
 	},
 };
