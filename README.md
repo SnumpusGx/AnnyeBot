@@ -26,25 +26,24 @@ Alguns arquivos precisam ser preenchidos para que o bot reconheça as informaç�
   }
 ```
 
-```diff
-# slashDeploy.js (linha 20)
-```
+
+- Em `slashDeploy.js (linha 20)`
+  
 ```js
 const clientId = "" // insira o ID de sua aplicação
 ```
-```diff
-- assets/handlers/logs.js.example
-+ assets/handlers/logs.js
-# (Linha 3)
-```
+
+- Em `assets/handlers/logs.js (Linha 3)`
+
 ```js
-const log_hook = new Discord.WebhookClient({ url: '' }) //Coloque a url do webhook para enviar os logs de Console
+const log_hook = new Discord.WebhookClient({ url: '' }) // Coloque a url do webhook para enviar os logs de Console
 ```
+
 ## Informações Adicionais
 - Anime's Night
 
 <p>
- <a href='https://discord.gg/qTHnPytZpw'>
+ <a href='https://discord.gg/animes-night-tm-7k-715911059302645802'>
      <img src="https://img.shields.io/discord/715911059302645802?color=5865f2&label=Anime's%20Night&logo=discord&logoColor=fff&style=for-the-badge" />
  </a>
  </p>
