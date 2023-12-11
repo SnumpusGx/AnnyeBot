@@ -15,10 +15,7 @@ npm install
 ## Configurando Arquivos
 Alguns arquivos precisam ser preenchidos para que o bot reconheça as informações.
 
-```diff
-- config.json.example
-+ config.json
-```
+- Em `config.json`
 ```js
   {
   "token": "", // insira o token do bot
@@ -28,13 +25,11 @@ Alguns arquivos precisam ser preenchidos para que o bot reconheça as informaç�
 
 
 - Em `slashDeploy.js (linha 20)`
-  
 ```js
 const clientId = "" // insira o ID de sua aplicação
 ```
 
 - Em `assets/handlers/logs.js (Linha 3)`
-
 ```js
 const log_hook = new Discord.WebhookClient({ url: '' }) // Coloque a url do webhook para enviar os logs de Console
 ```
